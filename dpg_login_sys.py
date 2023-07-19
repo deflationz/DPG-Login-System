@@ -7,7 +7,7 @@ with dpg.window(label='Login', no_collapse=True, no_resize=True, no_close=True, 
 	dpg.add_text('Username:')
 	username = dpg.add_input_text()
 	dpg.add_text('Password:')
-	password = dpg.add_input_text()
+	password = dpg.add_input_text(password=True)
 	dpg.add_text('')
 	def login_func(user, passs):
 		iss = False
